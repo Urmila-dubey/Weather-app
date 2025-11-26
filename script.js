@@ -10,7 +10,7 @@ const wind = document.getElementById("wind");
 const icon = document.getElementById("icon");
 
 // Your API key
-const apiKey = "07297831721e1924e62cfa79a168f005";
+const apiKey = "";
 
 // Function: fetch weather
 async function getWeather() {
@@ -51,3 +51,4 @@ async function getWeather() {
 
 // Search button click
 button.addEventListener("click", getWeather);
+
